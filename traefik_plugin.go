@@ -33,6 +33,7 @@ func (a *Demo) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 
 	rw.WriteHeader(http.StatusOK)
 	rw.Header().Add("x-test", "a.name")
+	fmt.Fprintln(rw, "test plugin executed")
 	return
 
 	// a.next.ServeHTTP(rw, req)
