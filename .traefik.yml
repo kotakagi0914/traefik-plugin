@@ -1,11 +1,11 @@
 # The name of your plugin as displayed in the Traefik Pilot web UI.
-displayName: kotakagi-test
+displayName: sheva-test
 
 # For now, `middleware` is the only type available.
 type: middleware
 
 # The import path of your plugin.
-import: github.com/sheva0914/test
+import: github.com/sheva0914/plugin
 
 # A brief description of what your plugin is doing.
 summary: Return specified name.
